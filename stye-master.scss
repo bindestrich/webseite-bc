@@ -2,13 +2,14 @@
 
 // Semantic color scheme
 ; 
+; 
 @import url('https://fonts.googleapis.com/css?family=Merriweather'); 
 @import url('https://fonts.googleapis.com/css?family=Lato'); 
 $theme-colors: (
   primary: #9EC534,
   secondary: #d60b52,
   success: #28a745,
-  info: #00fbff,
+  info: #d60b52,
   warning: #ffc107,
   danger: #dc3545,
   light: #f8f9fa,
@@ -69,6 +70,7 @@ $spacer: 1.5rem;
 
 
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
+$display-font-family: Lato;
 @import 'bootstrap-4.0.0-beta.1';
 
 
