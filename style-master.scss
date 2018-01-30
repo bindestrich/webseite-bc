@@ -5,6 +5,7 @@
 ; 
 ; 
 ; 
+@import url('https://fonts.googleapis.com/css?family=Roboto'); 
 @import url('https://fonts.googleapis.com/css?family=Cabin'); 
 @import url('https://fonts.googleapis.com/css?family=Anton'); 
 @import url('https://fonts.googleapis.com/css?family=Rammetto One'); 
@@ -49,7 +50,7 @@ $link-color: #3B3F42;
 
 
 
-$font-family-base: Cabin;
+$font-family-base: Lato;
 
 
 
@@ -70,7 +71,30 @@ $font-family-base: Cabin;
 
 
 
-$headings-font-family: Merriweather;
+
+
+
+
+
+
+
+
+
+
+
+$headings-font-family: Roboto;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -92,6 +116,10 @@ $headings-font-family: Merriweather;
 
 
 $font-size-base: 1rem;
+
+
+
+
 
 
 
@@ -120,7 +148,8 @@ $spacer: 1.5rem;
 
 
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
-$display-font-family: Cabin;
+$display-font-family: Lato;
+
 
 
 
