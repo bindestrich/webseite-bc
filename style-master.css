@@ -5592,3 +5592,6 @@ body > * {
 
 .text-bold {
   font-weight: 900; }
+
+.text-small {
+  font-weight: 300; }
